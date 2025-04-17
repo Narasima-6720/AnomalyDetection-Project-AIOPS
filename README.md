@@ -1,22 +1,23 @@
 # 🚀 Anomaly Detection Using Isolation Forest
 
 ## 🔍 What This Project Does
-This project uses **Isolation Forest**, a machine learning algorithm, to automatically detect **anomalies (unusual or suspicious data)** in system logs. It's great for identifying errors, performance issues, or anything that doesn't look normal — **without needing labeled data**.
+This project uses **Isolation Forest**, a machine learning algorithm, to automatically detect **anomalies (unusual or suspicious data)** in system logs. It's perfect for identifying errors, performance issues, or anything that looks out of the ordinary — **without needing labeled data**.
 
 ---
 
 ## 🛠️ How It Works
-1. Load and clean log data using **Pandas** and **NumPy** 🧹  
-2. Convert logs into a structured table 🧾  
-3. Assign severity scores to log levels (INFO, WARNING, ERROR, CRITICAL) 🔢  
-4. Extract useful features like **message length** and **log level score**  
-5. Apply **Isolation Forest** to detect anomalies 🤖  
-6. Display the results as ✅ normal or ❌ anomaly  
+1. 📂 Load and clean log data using **Pandas** and **NumPy**
+2. 🧾 Convert logs into a structured table format
+3. 🔢 Assign severity scores to log levels (INFO, WARNING, ERROR, CRITICAL)
+4. 🧠 Extract useful features like message length and log level score
+5. 🤖 Apply **Isolation Forest** to detect anomalies
+6. ✅ Display the results as normal or ❌ anomaly
 
 ---
 
-🔄 Workflow
+## 🔄 Workflow
 
+```text
 📂 Load log file  
 🧹 Clean and structure the data  
 🧠 Train Isolation Forest model  
@@ -25,31 +26,20 @@ This project uses **Isolation Forest**, a machine learning algorithm, to automat
 ❌ Mark outliers (anomalies)  
 📊 Print or export the results  
 
-
 📦 Required Libraries
 Install all required packages using pip:
 
+bash
+Copy
+Edit
 pip install pandas numpy scikit-learn
 
+Run the Python script:
 
-▶️ How to Run
-Place your log file (e.g., system_logs.txt) in the project folder
-
-Run the script using the command below:
-cd ai-assisted-devops/day-6
+bash
+Copy
+Edit
 python aiops_log_analysis.py
-
-
-🔍 Great for security, system monitoring, and DevOps alerts
-
-📈 Can scale and update with real-time logs
-
-🧠 No need for labeled data — unsupervised learning at work
-
-✅ Marks normal entries
-
-❌ Flags anomalies clearly
-
 
 
 📊 Sample Anomaly Output (Proper Table Format)

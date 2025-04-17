@@ -38,9 +38,7 @@ python aiops_log_analysis.py
 
 
 📊 Sample Anomaly Output (Proper Table Format)
-markdown
-Copy
-Edit
+
 | Timestamp           | Level     | Message                                             | Message Length | Anomaly | Is Anomaly |
 |---------------------|-----------|-----------------------------------------------------|----------------|---------|-------------|
 | 2025-03-27 10:00:38 | WARNING   | User logged in                                     | 14             | -1      | ❌ Anomaly  |

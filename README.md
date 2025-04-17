@@ -29,16 +29,11 @@ This project uses **Isolation Forest**, a machine learning algorithm, to automat
 📦 Required Libraries
 Install all required packages using pip:
 
-bash
-Copy
-Edit
+
 pip install pandas numpy scikit-learn
 
 Run the Python script:
 
-bash
-Copy
-Edit
 python aiops_log_analysis.py
 
 

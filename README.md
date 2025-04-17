@@ -17,7 +17,7 @@ This project uses **Isolation Forest**, a machine learning algorithm, to automat
 
 ## 🤖 Model Details
 
-```python
+python
 from sklearn.ensemble import IsolationForest
 
 model = IsolationForest(contamination=0.1, random_state=42)
@@ -27,9 +27,7 @@ contamination=0.1 → We assume ~10% of logs are anomalies 📉
 random_state=42 → Ensures results are reproducible every time 🎲
 
 🔄 Workflow
-text
-Copy
-Edit
+
 📂 Load log file
 🧹 Clean and structure the data
 🧠 Train Isolation Forest model
@@ -40,24 +38,18 @@ Edit
 📦 Required Libraries
 Install dependencies using pip:
 
-bash
-Copy
-Edit
+
 pip install pandas numpy scikit-learn
+
 ▶️ How to Run
+
 Place your log file (e.g., system_logs.txt) in the project folder
 
 Run the script:
-
-bash
-Copy
-Edit
 cd ai-assisted-devops/day-6
 python aiops_log_analysis.py
+
 🧪 Sample Output
-plaintext
-Copy
-Edit
 🔍 **Detected Anomalies:**
 
                timestamp     level                                         message  message_length  anomaly  is_anomaly

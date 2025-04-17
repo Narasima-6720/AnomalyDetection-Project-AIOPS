@@ -78,43 +78,7 @@ The model randomly selects features to build trees 🌳 — and isolates anomali
 
 ❌ Flags anomalies clearly
 
-📁 Folder Structure (Optional)
-text
-Copy
-Edit
-ai-assisted-devops/
-│
-└── day-6/
-    ├── system_logs.txt         # Your input log file
-    ├── aiops_log_analysis.py   # Python script to analyze logs
-    └── README.md               # Project documentation
-📬 Contact / Credits
-Made with 💻 by [Your Name]
-Feel free to fork, improve, or ask questions!
 
-python
-Copy
-Edit
-
----
-
-### ✅ Final Tip:
-Replace `[Your Name]` with your actual name or GitHub handle.  
-If you'd like to include screenshots or badges, I can help you add those too.
-
-Let me know when you're ready for that!
-
-
-
-You said:
-           timestamp     level                                         message  message_length  anomaly  is_anomaly
-19 2025-03-27 10:00:38 WARNING User logged in 14 -1 ❌ Anomaly 21 2025-03-27 10:01:45 CRITICAL User changed password 21 -1 ❌ Anomaly 26 2025-03-27 10:01:44 ERROR CPU usage at 95% 16 -1 ❌ Anomaly 887 2025-03-27 10:14:47 WARNING Slow query detected: SELECT * FROM orders 41 -1 ❌ Anomaly 941 2025-03-27 11:02:44 WARNING Unauthorized access attempt to admin panel 42 -1 ❌ Anomalywhy it is coming ikethis
-
-ChatGPT said:
-Ah, I see what happened! You're trying to display a formatted table in your GitHub README, but when you paste plain text like that, GitHub doesn't automatically format it into a readable table — it turns into a jumbled line of text.
-
-✅ Solution: Use Markdown Tables
-To make it clean and readable in your README.md, you should use Markdown table syntax. Here’s how to format your anomaly output correctly:
 
 📊 Sample Anomaly Output (Proper Table Format)
 markdown
